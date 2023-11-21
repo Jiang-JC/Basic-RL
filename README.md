@@ -14,14 +14,13 @@ Furthermore, the discount factor γ = 0.95 results in moving towards the wall or
 
 ## SARSA
 
-<img src="SARSA\Figure\10_best_policy_Original.png" height = "300">  <img src="SARSA\Figure\10_reward_plot_Orginal.png" height = "300">
+<img src="SARSA\Figure\10_best_policy_Original.png" height = "300">  <img src="SARSA\Figure\10_reward_plot_Original.png" height = "300">
 
 From the Q table and the best policy, it is evident that SARSA is capable of learning the 10 * 10 map effectively. However, it may take a considerable amount of time for SARSA to learn the map, despite achieving positive rewards several times. 
 Moreover, even after learning the map proficiently, the agent still tends to wander or walk against the wall. This can be observed in the Q table where the difference between the Q values for the agent walking against the wall or wandering on the ground and the Q values for the agent moving towards the target point is very small in many positions.
 
 ## Q-Learning
 
-<img src="Qlearning\Figure\10_best_policy_original.png" height = "300">
-<img src="Qlearning\Figure\10_reward_plot_orginal.png" height = "300">
+<img src="Qlearning\Figure\10_best_policy_original.png" height = "300">  <img src="Qlearning\Figure\10_reward_plot_original.png" height = "300">
 
 It is evident that Q-learning can learn the 10 * 10 map rapidly and effectively, with a fantastic outcome that surpasses SARSA's performance. In the following part, we will discuss the reasons for this superior performance of Q-learning.
