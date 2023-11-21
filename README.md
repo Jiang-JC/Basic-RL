@@ -1,6 +1,6 @@
 # Basic-RL
 
-The project primarily involves solving a path planning problem using three reinforcement learning algorithms. The algorithms used in this project are:
+The project primarily involves solving a simple path planning problem using three reinforcement learning algorithms. The algorithms used in this project are:
 1.	First-visit Monte Carlo control without exploring starts. 
 2.	SARSA with an ϵ-greedy behavior policy. 
 3.	Q-learning with an ϵ-greedy behavior policy
